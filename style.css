@@ -1,0 +1,36 @@
+img{
+    width: 100px;
+}
+
+div{
+    margin: 30px;
+}
+
+#an1{
+    width: 100px;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px black;
+}
+
+#an1:hover{
+    transform: translate(10px, -10px) rotate(360deg) scale(1.2);
+    box-shadow: 1px 10px 10px black;
+}
+
+#back{
+    background-color: #157bad;
+    height: 300px;
+    width: 300px;
+
+    transition-property: background-color, border-radius;
+    transition-duration: 2s, 0.5s;
+    /*transition-delay: 1s;*/
+    transition-timing-function: ease-in-out;
+}
+
+#back:hover{
+    background-color: #ec5840;
+    border-radius: 50%;
+}
